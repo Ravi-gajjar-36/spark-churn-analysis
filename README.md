@@ -24,26 +24,6 @@ Build a scalable churn prediction model using Spark ML
 
 The dataset contains customer-level behavioral and transactional data
 
-**Project Structure**
-
-spark-churn-analysis/
-│
-├── data/
-│   └── churn_raw.csv
-│
-├── notebooks/
-│   ├── 01_data_profiling.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_partitioning_and_skew.ipynb
-│   ├── 04_churn_modeling.ipynb
-│
-├── src/
-│   ├── feature_engineering.py
-│   ├── churn_metrics.py
-│   ├── spark_ml_model.py
-│
-└── README.md
-
 **Key Concepts Covered**
 
 **1. Spark Performance**
